@@ -8,10 +8,18 @@ I had trouble creating a React Native monorepo, so I took a different approach. 
     - Follow the step by step process yourself!
 
 ## GitHub Clone
+- `$ git clone git@github.com:MattGibz/ReactNativeWebMobileTemplate.git myproject`
+- `$ cd myproject`
+- `$ yarn`
+- To run in browser:
+    - `$ yarn webstart`
+- To run in Android
+    - `$ yarn start`
+    - `$ yarn android`
 
 ## Manual Process
 
- - Follow the _Setting up the development environment_ guide in the [React Native docs](https://reactnative.dev/docs/environment-setup)
+- Follow the _Setting up the development environment_ guide in the [React Native docs](https://reactnative.dev/docs/environment-setup)
     - I chose to create a TypeScript project by running:
     - `$ npx react-native init AwesomeTSProject --template react-native-template-typescript`
 - `$ cd AwesomeTSProject`
